@@ -25,7 +25,7 @@ int main() {
 	cout << "\nCompiling...\n";
 	
 	inName = fileName.find(".wtl") ? fileName : fileName + ".wtl";
-	outName = 
+	outName =
 	freopen(fileName + ".wtl", "r", stdin);
 	freopen("." + fileName + ".cpp", "w", stdin);
 	
@@ -36,4 +36,3 @@ int main() {
 	return 0;
 	
 }
-
